@@ -1,0 +1,40 @@
+
+.screen-container, .map-container, .date-container {
+    border: 1px solid gray;
+    text-align: center;
+    margin: 20px auto;
+    width: 400px;
+    height: 100px;
+}
+
+.btn {
+    display: flex;
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    
+    padding: 10px 20px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: 0.3s;
+}
+      
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+}
+      
+      
+.btn:active {
+    box-shadow: 0px 1px 4px 1px rgba(141,150,178,.3);
+    transform: scale(0.98);
+}
