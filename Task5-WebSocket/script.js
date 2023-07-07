@@ -21,7 +21,7 @@ const websocketLocatoin = new WebSocket(wsUri);
     websocketLocatoin.onopen = () => {};
     websocketLocatoin.onmessage = function(evt) {
         getServerMessage(
-        `<a href= 'https://www.openstreetmap.org/#map=18/${evt.data.slice(0,evt.data.indexOf(','))}/${evt.data.slice(evt.data.indexOf(',')+1,-1)}'>mylocation</a>`
+        `<a href= 'https://www.openstreetmap.org/#map=18/${evt.data.slice(0,evt.data.indexOf(','))}/${evt.data.slice(evt.data.indexOf(',')+1,-1)}' target='_blanck'>mylocation</a>`
         );
     }
 
